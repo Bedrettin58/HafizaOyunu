@@ -1,22 +1,22 @@
 h1 {
     text-align: center;
-    font-size: 4vw;
+    font-size: 30px;
 }
 #ana {
-    /*position: relative;*/
+    position: relative;
+    width: 540px;
+    height: 440px; 
     border: 1px solid black;
-    width: 76vw;
-    height: 60vw;
     background-color: rgb(118, 164, 223);
-    padding: 6px;
+    padding: 4px;
     margin: auto;
     border-radius: 20px;
     box-shadow: 0 0 10px 2px rgb(0, 0, 0); 
 }
 #ana img {
     float: left;
-    width: 14vw;
-    height: 14vw;
+    width: 100px;
+    height: 100px;
     padding: 4px;  
 }
 
@@ -36,64 +36,47 @@ button img {
     text-align: center;
     padding: 3px;
     margin-bottom: 10px;
-    font-size: 3vw;
+    font-size: 24px;
 }
 h3{
     text-align: center;
-    font-size: 3vw;
+    font-size: 30px;
 }
 /* ------------------------------------------- */
 @media screen and (max-width: 900px) {
     #ana { 
-        width: 58vw;
-        height: 69vw;   
+        position: relative;
+        width: 440px;
+        height: 540px;   
     }
     #ana img {
         float: left;
-        width: 13vw;
-        height: 13vw;     
+        width: 100px;
+        height: 100px;     
     }
     .popuptext {
-        left: 24vw;
+        left: 5%;
     }
   }
 /* @media sonu ------------------------------------ */
-/* ------------------------------------------- */
-@media screen and (max-width: 770px) {
-    #ana { 
-        width: 55vw;
-        height: 69vw;     
-    }
-    #ana img {
-        float: left;
-        width: 12vw;
-        height: 12vw;  
-        padding: 4px;     
-    }
-    .popuptext {
-        left: 24vw;
-    }
-  }
-/* @media sonu ------------------------------------ */
-
 
 /* --------------------- popup -----------------------
    The actual popup */
   .popuptext {
     position: absolute;  
     visibility: hidden;
-    width: 50vw;
+    width: 400px;
     background-color: rgb(129, 19, 105);
     color: #fff;
     text-align: center;
-    font-size: 5vw;
-    border-radius: 3vw;
+    font-size: 30px;
+    border-radius: 20px;
     padding: 1vw;
     clear: both;
     z-index: 1;
-    top:40vw;
+    top:35%;
 
-    left:24vw;
+    left: 5%;
     box-shadow: 0 0 10px 2px rgb(0, 0, 0);  
   }
   
@@ -111,7 +94,7 @@ h3{
         top:0%
     }
     to {opacity:1 ;
-        top:40%
+        top:35%;
     }
   }
   
@@ -121,6 +104,6 @@ h3{
         top:0%
     }
     to {opacity:1 ;
-        top:40%;
+        top:35%;
     }
   }
