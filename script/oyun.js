@@ -115,7 +115,7 @@ function secilenResim(event){
 
          bilinen++;
          //if(bilinen == imgs.length/2){ //kazanma durumu
-         if(bilinen == 1){ //kazanma durumu
+         if(bilinen == imgs.length/2){ //kazanma durumu
             clearInterval(interval);
             if(dk > 0){
               msg = "Tebrikler! <br>" + "Hamle : " + hamle + "<br>Süreniz :" + dk + " dk. " + sn + " s"; 
