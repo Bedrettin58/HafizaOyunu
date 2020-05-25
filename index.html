@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hafıza Oyunu</title>
+    <link rel="stylesheet" type="text/css" href="css/oyun.css">
+    <!--link rel="stylesheet" type="text/css" href="css/popup.css"-->
+</head>
+
+<body>
+    <audio id="sesClick">
+        <source src="sounds/CLICK.wav" type="audio/wav">
+    </audio>
+    <audio id="sesDing">
+        <source src="sounds/ding.wav" type="audio/wav">
+    </audio>
+    <audio id="sesTada">
+        <source src="sounds/tada.wav" type="audio/wav">
+    </audio>
+
+    <div id="oyun">
+        <h1>Hafıza Oyunu</h1>
+    </div>
+
+    <div id="skor">
+        <span id="hamle">Hamle:-</span>
+        <span id="sure">Süre:</span>
+        <label for="yeniden">Yeniden Başlat</label>
+        <button id="yeniden" onclick="restart()">
+            <img src="images/restart.png">
+        </button>
+    </div>
+
+    <div id="ana">
+        <img src="" alt=""> <img src="" alt="">
+        <img src="" alt=""> <img src="" alt="">
+        <img src="" alt="">
+    
+        <img src="" alt=""> <img src="" alt="">
+        <img src="" alt=""> <img src="" alt="">
+        <img src="" alt="">
+       
+        <img src="" alt=""> <img src="" alt="">
+        <img src="" alt=""> <img src="" alt="">
+        <img src="" alt="">
+     
+        <img src="" alt=""> <img src="" alt="">
+        <img src="" alt=""> <img src="" alt="">
+        <img src="" alt="">
+        
+    </div>
+    <span class="popuptext" id="mesaj">A Simple Popup!</span>
+
+    <h3>Bedrettin Başkaya</h3>
+
+    <script src="script/oyun.js"></script>
+</body>
+
+</html>
